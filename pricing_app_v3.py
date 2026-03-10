@@ -206,7 +206,7 @@ col_logo, col_title, col_contact = st.columns([1, 4, 2])
 
 with col_logo:
     try:
-        st.image("tag_logo.png", width=110)
+        st.image("tag_logo.png", width=180)
     except:
         st.markdown("<div style='font-size:40px; padding-top:8px;'>🌿</div>", unsafe_allow_html=True)
 
